@@ -1,0 +1,62 @@
+StackPane, GridPane {
+    -fx-background-color: #1d1d1d;
+}
+
+Label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+TextField{
+     -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+    -fx-font-size: 12pt;
+    -fx-font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    -fx-alignment: center;
+}
+
+Button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+Button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+Button:pressed, Button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+
+Button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+Button:disabled, Button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+Button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+Button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
