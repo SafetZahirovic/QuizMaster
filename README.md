@@ -1,4 +1,4 @@
-# Quiz_Beta1
+# QuizMaster
 A small quiz app.
 
 To enjoy this product, download and unpack, and run QuizMaster.jar.
