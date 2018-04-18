@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Resources
+comment1.params=
+comment1.target=Resources()
+comment2.params=
+comment2.target=java.util.ArrayList\ returnList()
+comment3.params=
+comment3.target=java.util.ArrayList\ returnMusic()
+comment4.params=
+comment4.target=java.util.ArrayList\ returnIntroMusic()
+numComments=5
