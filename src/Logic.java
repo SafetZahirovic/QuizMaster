@@ -109,7 +109,7 @@ public class Logic {
                 AudioClip eigthy = new AudioClip(Paths.get("resources/mediumApplause.wav").toUri().toString());
                 eigthy.play();
             }
-            if(getCorrect() == index ){
+            if((correct * 100) / index <= 100 ){
                 hundred.play();
             }
 
